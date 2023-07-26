@@ -1,10 +1,9 @@
 const app = Vue.createApp({
-    data: function(){
+    data() {
         return {
             product: 'Socks',
-            description: 'This is the description for Socks product.'
+            image:'./assets/images/socks_green.jpg',
+            url:'#'
         }
     }
-});
-
-const mountedApp = app.mount('#app');
+})
