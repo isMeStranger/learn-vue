@@ -1,9 +1,3 @@
-Class Binding
+component emit event 
 
-:class="{active:activeClass}"
-
-:class="[isActive? activeClass: '']"
-
-:class="{ 'disabledButton': !inStock }"
-
-:style="{ 'background-color': variant.color }"
+add cart event 
