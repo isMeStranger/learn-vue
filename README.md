@@ -1,3 +1,4 @@
-component emit event 
+forms and v-model
 
-add cart event 
+type cast:
+<select id="rating" v-model.number="rating">
