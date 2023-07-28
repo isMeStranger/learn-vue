@@ -1,4 +1,4 @@
-set "temp_branch_name=comp-emit-event"
+set "temp_branch_name=forms"
 
 git branch -M "%temp_branch_name%"
 git add .
